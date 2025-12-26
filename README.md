@@ -7,7 +7,7 @@ Brave is not included in Fedora’s default repositories, so you must add Brave�
 ## 1. Add Brave’s signing key
 
 ```bash
-sudo rpm --import https://brave.com/signing-keys/brave-core.asc
+sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 ```
 
 ---
@@ -21,7 +21,7 @@ name=Brave Browser
 baseurl=https://brave-browser-rpm-release.s3.brave.com/x86_64/
 enabled=1
 gpgcheck=1
-gpgkey=https://brave.com/signing-keys/brave-core.asc
+gpgkey=https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 EOF
 ```
 
